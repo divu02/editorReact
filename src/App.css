@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700"); 
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"); 
+
+:root {
+  --font-roboto: "Roboto Slab", serif;
+  --font-raleway: "Raleway", sans-serif;
+}
+.homePageWrapper{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  /* color:white; */
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  height:100vh;
+}
+.formWrapper{
+  /* background-color: rgb(39, 38, 40); */
+  background: white;
+  background: linear-gradient(to right bottom, 
+   rgba(255,255,255,0.7),
+     rgba(255,255,255,0.3));
+
+  padding:20px;
+  border-radius: 2rem;
+  width:30%;
+  min-height: 70vh;
+  /* max-width:90%; */
+}
+footer{
+  position:fixed;
+  bottom: 0;
+  /* right:10px; */
+}
+footer a{
+  color:#426696;
+}
+.inputGroup{
+  display:flex;
+  flex-direction: column;
+
+}
+.mainLabel{
+  color: #426696;
+margin-bottom: 40px;
+margin-top:10px;
+/* font-weight: 500; */
+font-family: var(--font-raleway);
+}
+.homePageLogo{
+  height:80px;
+  margin-bottom: 30px;
+}
+.inputBox{
+  font-family: var(--font-raleway);
+  padding:15px;
+  border-radius:5px;
+  outline:none;
+  border:none;
+  margin-bottom:14px;
+  background-color: white;
+  background: linear-gradient(to right bottom, 
+   rgba(255,255,255,0.7),
+     rgba(255,255,255,0.3));
+
+  font-size: 16px;
+  font-weight: bold;
+}
+.btn{
+  font-family: var(--font-raleway);
+  color: whitesmoke;
+  border:none;
+  padding:10px;
+  border-radius:5px;
+  font-size:16px;
+  font-weight: 700;
+  cursor:pointer;
+  transition: all 0.3s ease-in-out;
+}
+.joinBtn,.leaveBtn{
+  width:100px;
+  color:#426696;
+  background-color: white;
+  background: linear-gradient(to right bottom, 
+   rgba(255,255,255,0.7),
+     rgba(255,255,255,0.3));
+
+  margin-left:auto;
+}
+.joinBtn:hover,.copyBtn:hover,.leaveBtn:hover{
+  background:  #426696;
+  color: aliceblue;
+}
+.createInfo{
+  
+  margin:0 auto;
+  margin-top:20px;
+}
+.createNewBtn{
+  color:#426696;
+  text-decoration: none;
+  border-bottom: 1px solid #426696;
+  transition: all 0.3s ease-in-out;
+}
+
+.createNewBtn:hover{
+  color:rgb(30, 176, 213);
+  border-color: #8da9cd;
+}
+footer a:hover{
+color:rgb(30, 176, 213)
+}
+.mainWrap{
+  display : grid;
+  grid-template-columns: 230px 1fr;
+  height: 100vh;
+   
+}
+.aside{
+  background: #1c1e29;
+  padding:16px;
+  color:white;
+  display:flex;
+  flex-direction: column;
+}
+.asideInner{
+  flex:1;
+}
+.clientList{
+  display: flex;
+  align-items: center;
+  flex-wrap:wrap;
+  gap:20px;
+}
+.client{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+.userName{
+  margin-top:10px;
+}
+.logo{
+  border-bottom:1px solid #302e2e;
+  padding-bottom: 10px;
+}
+.logoImage{
+width:100%;
+}
+.leaveBtn{
+  width:100%;
+  margin-top:20px;
+}
+.CodeMirror {
+  min-height: 90vh;
+  font-size:20px;
+  line-height:1.6;
+  padding-top:20px;
+}
+.con{
+  font-family: var(--font-raleway); 
+}
+.copyBtn{
+  /* width:100px; */
+  color:#426696;
+  padding: auto;
+  background-color: white;
+  background: linear-gradient(to right bottom, 
+   rgba(255,255,255,0.7),
+     rgba(255,255,255,0.3));
+
+}
